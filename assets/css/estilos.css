@@ -1,0 +1,25 @@
+.main-section {
+  background-image: url("../img/header-inmobiliaria.jpg");
+  background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  height: 100px;
+}
+
+.card img {
+  height: 250px;
+}
+
+.los {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
